@@ -10,8 +10,7 @@ class App extends Component {
     render() {
         return (
             <Provider store={createStore(rootReducer)}>
-                <div>
-                    React Boilerplate
+                <div className="app">
                     <SmokeCounter />
                 </div>
             </Provider>

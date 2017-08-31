@@ -1,3 +1,40 @@
 body {
     text-align: center;
 }
+
+.app {
+    display: flex;
+    justify-content: center;
+}
+
+/*-------------------------------SMOKE-COUNTER--*/
+.smoke-counter {
+    border: 1px solid grey;
+
+    h2 {
+        padding: 10px 20px;
+    }
+
+    &--button {
+        background-color: rgb(253, 177, 74);
+        padding: 10px 20px;
+        margin-top: 20px;
+    }
+
+    &--count {
+        display: flex;
+        flex-wrap: nowrap;
+        align-items: center;
+        justify-content: center;
+
+        img {
+            max-height: 80px;
+            max-width: 80px;
+        }
+
+        span {
+            font-size: 60px;
+            padding: 0px 15px;
+        }
+    }
+}
