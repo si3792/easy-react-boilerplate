@@ -1,12 +1,18 @@
 import React, { Component } from 'react';
+import { createStore } from 'redux';
+import { Provider } from 'react-redux';
+import rootReducer from '../../reducers/root-reducer';
 require('./app.css');
+
 
 class App extends Component {
     render() {
         return (
-            <div className="App">
-                <h2>React Boilerplate</h2>
-            </div>
+            <Provider store={createStore(rootReducer)}>
+                <div>
+                    React Boilerplate
+                </div>
+            </Provider>
         );
     }
 }
