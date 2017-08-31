@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import { createStore } from 'redux';
 import { Provider } from 'react-redux';
 import rootReducer from '../../reducers/root-reducer';
+import SmokeCounter from '../../components/smoke-counter/smoke-counter';
 require('./app.css');
 
 
@@ -11,6 +12,7 @@ class App extends Component {
             <Provider store={createStore(rootReducer)}>
                 <div>
                     React Boilerplate
+                    <SmokeCounter />
                 </div>
             </Provider>
         );
