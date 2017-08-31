@@ -9,7 +9,8 @@ require('./app.css');
 class App extends Component {
     render() {
         return (
-            <Provider store={createStore(rootReducer)}>
+            <Provider
+                store={createStore(rootReducer, window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__())}>
                 <div className="app">
                     <SmokeCounter />
                 </div>
