@@ -1,5 +1,5 @@
 # react-boilerplate
-Boilerplate project, built on top of create-react-app. Includes Redux,Sass and ESLint configuration for linting.
+Boilerplate project, built on top of create-react-app. Includes Redux, Sass and ESLint configuration for linting.
 
 ## Scripts
 
