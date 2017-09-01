@@ -40,6 +40,24 @@
         "react/jsx-uses-react": [
             "error"
         ],
+        "jsx-quotes": [
+            "error"
+        ],
+        "react/jsx-curly-spacing": [
+            "error"
+        ],
+        "react/no-string-refs": [
+            "error"
+        ],
+        "react/jsx-closing-bracket-location": [
+            "error"
+        ],
+        "react/jsx-no-bind": [
+            "error"
+        ],
+        "react/no-is-mounted": [
+            "error"
+        ],
         "no-console": 0
     }
 }
