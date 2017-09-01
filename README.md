@@ -41,3 +41,9 @@ import * as selectors from './selectors';
 
 export default { actions, components, containers, constants, reducers, selectors };
 ```
+
+
+## TODO
+
+* Add react-router with simple configuration
+* Refactor project structure
